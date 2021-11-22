@@ -1,0 +1,4 @@
+Command line to change all comas characters to points. It can be apply to a folder and its subfolders.
+
+$ find ./ -type f | xargs sed -i 's/,/\./g'
+
